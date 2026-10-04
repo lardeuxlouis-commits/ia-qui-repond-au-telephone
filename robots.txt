@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ia-qui-repond-au-telephone.eu/sitemap.xml
