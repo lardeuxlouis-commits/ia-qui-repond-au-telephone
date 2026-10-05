@@ -219,6 +219,18 @@ details p{margin:0 0 16px}
 }
 
 
+.i-ls{padding:84px 0}
+.i-ls.i-lsalt{background:var(--surface)}
+.i-lsw{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:20px 72px;align-items:start}
+.i-ls h2{position:sticky;top:96px;font-size:clamp(28px,3.4vw,44px);line-height:1.08;letter-spacing:-.025em}
+.i-lsb>*:first-child{margin-top:0}
+.i-lsfull .i-lsw{grid-template-columns:minmax(0,1fr);gap:8px}.i-lsb{min-width:0}
+.i-lsfull h2{position:static}
+.i-lsb .i-tablewrap{margin-top:8px}
+@media (max-width:980px){.i-lsw{grid-template-columns:minmax(0,1fr)}.i-ls h2{position:static}.i-ls{padding:52px 0}}
+[data-ap][data-off] *{animation-play-state:paused!important}
+
+
 @media (prefers-reduced-motion:no-preference){
 @keyframes eqp{0%{transform:scaleY(.45)}100%{transform:scaleY(1.12)}}
 @keyframes dshf{to{stroke-dashoffset:-11}}
